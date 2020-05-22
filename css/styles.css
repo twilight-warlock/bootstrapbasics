@@ -64,3 +64,8 @@ body {
   -o-appearance: none;
   appearance: none;
 }
+#carouselButton {
+  right: 0;
+  position: absolute;
+  bottom: 0;
+}
