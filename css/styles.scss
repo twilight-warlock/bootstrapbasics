@@ -73,3 +73,27 @@ body {
   bottom: 0px;
   z-index: 1;
 }
+.norad input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+.modal-header {
+  background: $background-dark;
+  color: floralwhite;
+
+  button {
+    color: floralwhite;
+  }
+  button:hover {
+    color: floralwhite;
+  }
+}
+.modal-body {
+  background: $background-pale;
+}
+.modal-footer {
+  background: $background-light;
+}
